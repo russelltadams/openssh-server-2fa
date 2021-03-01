@@ -19,11 +19,13 @@ bastille create my2fa-bastion 12.2-RELEASE 192.168.100.42 em0
 ## Usage
 1) Apply the template to the jail `my2fa-bastion`.
 ```shell
-bastille template my2fa-bastion russelltadams/openssh-server
-
+bastille template my2fa-bastion russelltadams/openssh-server-2fa
 ```
+
 2) Console into `my2fa-bastion` for post-configuration. 
 ```shell
+bastille console my2fa-bastion
+```
 
 
 ## Optional
