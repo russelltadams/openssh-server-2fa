@@ -1,5 +1,3 @@
+INCLUDE https://gitlab.com/bastillebsd-templates/openssh-server
 OVERLAY etc
 PKG pam_google_authenticator
-SERVICE sshd start
-SYSRC sshd_enable=YES
-SYSRC sshd_flags=""
